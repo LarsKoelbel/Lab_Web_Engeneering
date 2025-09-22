@@ -1,6 +1,6 @@
 body {
     background-color: lightgray;
-    background-image: url("/resources/media/images/stralsund-during-the-blue-hour-e18a9471-b263-4cfd-9eb9-0407ad294d33.jpg");
+    background-image: url("/resources/media/images/background.jpg");
     background-size: cover; /* Ensures the image covers the whole screen */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -74,4 +74,20 @@ input {
     text-align: left;
     color: #b3b3b3;
     padding: 0px 0px 0px 40px;
+}
+
+.spinner {
+    border: 4px solid #f3f3f3; /* Light gray */
+    border-top: 4px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }

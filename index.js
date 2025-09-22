@@ -22,6 +22,9 @@ function addToConversation(msg, source){
 
 function askAI() {
     addToConversation(input.value, "User");
+
+    aiResponseDiv.innerHTML = '<span class="spinner"></span>';
+
     const prompt = "Continue the conversation from the following history with just one response." +
         "If the history is empty, assume its a new conversation.\n\nHistory: \n\n" + conversation + "\n\nNow answer with only your response:"
 
@@ -41,6 +44,7 @@ function askAI() {
         })
         .catch(error => {
             console.error("Error:", error);
+            aiResponseDiv.innerText = "Oops... Something went wrong... Try again later!";
         });
 
     // Clear the input field
