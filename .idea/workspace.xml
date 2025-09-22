@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/media/images/rathaus_stralsund_strelasund_ostsee_vorpommern-9277891.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/images/stralsund-blick-von-altefaehr-ueber-den-strelasund-88da9159-07e9-4224-a2a3-e34aeb77c927.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/media/images/stralsund-during-the-blue-hour-e18a9471-b263-4cfd-9eb9-0407ad294d33.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +53,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\student\WebstormProjects\Web_Engenering_Lab\resources\media\images" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758526854822</updated>
-      <workItem from="1758526855770" duration="1495000" />
+      <workItem from="1758526855770" duration="2363000" />
     </task>
     <servers />
   </component>
