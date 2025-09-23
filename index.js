@@ -11,6 +11,7 @@ fetch("resources/ai/telemetry.json")
     .then(response => response.json())
     .then(config => {
         aiURL = config.url;
+        checkLogin();
     })
     .catch(error => console.error("Error loading config:", error));
 
@@ -83,5 +84,33 @@ function sendFeedback() {
 
     nameInput.value = "";
     feedbackSubmitButton.value = "";
+
+}
+
+function checkLogin() {
+
+    // Send POST request
+    fetch(aiURL, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({logon: "true"})
+    })
+        .then(response => response.json())
+        .then(result => {
+            console.log("Parsed JSON:", result);
+            if (result.logon === "block")
+            {
+                window.location.href = "banned.html";
+            }
+            else if (result.logon === "maintenance")
+            {
+                window.location.href = "maintanance.html";
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
 
 }
