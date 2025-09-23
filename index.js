@@ -1,5 +1,9 @@
 const input = document.getElementById("aiInput");
 const aiResponseDiv = document.getElementById("ai-response");
+const feedbackInput = document.getElementById("Ifeedback");
+const nameInput = document.getElementById("IName");
+const feedbackSubmitButton = document.getElementById("feedbackSubmitButton");
+const feedbackDiv = document.getElementById("feedbackDiv");
 var conversation = ""
 let aiURL = "";
 
@@ -14,6 +18,10 @@ input.addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
         askAI();
     }
+})
+
+feedbackSubmitButton.addEventListener("click", function (event) {
+    sendFeedback();
 })
 
 function addToConversation(msg, source){
@@ -49,4 +57,31 @@ function askAI() {
 
     // Clear the input field
     input.value = "";
+}
+
+function sendFeedback() {
+
+    feedbackDiv.innerHTML = '<span class="spinner"></span>';
+
+    // Send POST request
+    fetch(aiURL, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({feedback: feedbackInput.value, name: nameInput.value})
+    })
+        .then(response => response.json())
+        .then(result => {
+            console.log("Success:", result);
+            feedbackDiv.innerHTML = '<p>Thank you for your feedback!</p>';
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            feedbackDiv.innerHTML = '<p>Feedback failed to send</p>';
+        });
+
+    nameInput.value = "";
+    feedbackSubmitButton.value = "";
+
 }
