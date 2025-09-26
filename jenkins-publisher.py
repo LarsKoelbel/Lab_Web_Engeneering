@@ -53,7 +53,7 @@ def publish_project(path: str) -> bool:
         if result.returncode != 0:
             print(f'Error occurred while invalidating CloudFront cache: {result.stderr}')
             return False
-        
+
 
         print('Publishing completed successfully.')
         return True
@@ -85,6 +85,7 @@ def update_all():
         for fp in failed_projects:
             print(f'\t{fp}')
             continue
+        raise Exception("Some or all actions have failed.")
     else:
         print('All projects updated successfully.')
 
