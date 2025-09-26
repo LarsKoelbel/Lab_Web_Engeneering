@@ -39,13 +39,13 @@ def publish_project(path: str) -> bool:
         if result.returncode != 0:
             print(f'Error occurred while removing old files from S3 bucket: {result.stderr}')
             return False
-        print(result.stdout)
+
         print('Uploading new files to S3 bucket...')
         result = subprocess.run(f'aws s3 sync {public_folder} s3://{aws_s3_bucket}', shell=True)
         if result.returncode != 0:
             print(f'Error occurred while uploading new files to S3 bucket: {result.stderr}')
             return False
-        print(result.stdout)
+
 
         # Invalidate the CloudFront cache
         print('Invalidating CloudFront cache...')
@@ -53,7 +53,7 @@ def publish_project(path: str) -> bool:
         if result.returncode != 0:
             print(f'Error occurred while invalidating CloudFront cache: {result.stderr}')
             return False
-        print(result.stdout)
+        
 
         print('Publishing completed successfully.')
         return True
