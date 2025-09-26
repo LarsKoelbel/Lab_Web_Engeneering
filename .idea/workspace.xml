@@ -6,8 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/style/css/styles_maintanance.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/style/css/styles_maintanance.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banned.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/banned.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galery.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/galery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maintanance.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/maintanance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ai/telemetry.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/resources/ai/telemetry.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/media/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/resources/media/images/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/media/images/construction.png" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/resources/media/images/construction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/media/images/rathaus_stralsund_strelasund_ostsee_vorpommern-9277891.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/resources/media/images/rathaus_stralsund_strelasund_ostsee_vorpommern-9277891.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/media/images/stralsund-blick-von-altefaehr-ueber-den-strelasund-88da9159-07e9-4224-a2a3-e34aeb77c927.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/resources/media/images/stralsund-blick-von-altefaehr-ueber-den-strelasund-88da9159-07e9-4224-a2a3-e34aeb77c927.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/media/images/stralsund-during-the-blue-hour-e18a9471-b263-4cfd-9eb9-0407ad294d33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/resources/media/images/stralsund-during-the-blue-hour-e18a9471-b263-4cfd-9eb9-0407ad294d33.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/media/images/wrench.png" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/resources/media/images/wrench.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/style/css/styles_maintanance.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/styles_maintanance.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,34 +58,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/dirkk/WebstormProjects/Lab_Web_Engeneering",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/dirkk/AppData/Roaming/JetBrains/WebStorm2025.2/node/versions/22.19.0/node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dirkk/WebstormProjects/Lab_Web_Engeneering&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/dirkk/AppData/Roaming/JetBrains/WebStorm2025.2/node/versions/22.19.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\resources\style\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-stralsund\public" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering" />
       <recent name="C:\Users\student\WebstormProjects\Web_Engenering_Lab\resources" />
       <recent name="C:\Users\student\WebstormProjects\Web_Engenering_Lab\resources\media\images" />
@@ -99,6 +113,7 @@
       <workItem from="1758631752874" duration="2712000" />
       <workItem from="1758661675501" duration="2579000" />
       <workItem from="1758664997284" duration="2508000" />
+      <workItem from="1758907775379" duration="833000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
