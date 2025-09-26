@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,7 @@
       <workItem from="1758631752874" duration="2712000" />
       <workItem from="1758661675501" duration="2579000" />
       <workItem from="1758664997284" duration="2508000" />
-      <workItem from="1758907775379" duration="3401000" />
+      <workItem from="1758907775379" duration="3640000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
