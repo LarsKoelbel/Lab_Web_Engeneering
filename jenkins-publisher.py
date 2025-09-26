@@ -8,7 +8,7 @@ def publish_project(path: str) -> bool:
     # Get the aws endpoint
     aws_endpoint_file = os.path.join(path, 'jenkins-info.json')
     if not os.path.isfile(aws_endpoint_file):
-        print(f"Project has no aws endpoint file or the file is misplaced.\nERROR: Fil not found: {aws_endpoint_file}. Publishing aborted!")
+        print(f"Project has no aws endpoint file or the file is misplaced.\nERROR: File not found: {aws_endpoint_file}. Publishing aborted!")
         return False
     try:
         with open(aws_endpoint_file, 'r') as file:

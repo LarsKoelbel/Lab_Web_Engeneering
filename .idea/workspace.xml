@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins-publisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins-publisher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-stralsund/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +100,7 @@
       <workItem from="1758631752874" duration="2712000" />
       <workItem from="1758661675501" duration="2579000" />
       <workItem from="1758664997284" duration="2508000" />
-      <workItem from="1758907775379" duration="2714000" />
+      <workItem from="1758907775379" duration="2906000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
