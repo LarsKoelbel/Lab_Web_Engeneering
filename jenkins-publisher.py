@@ -67,6 +67,7 @@ def update_all():
     print('Found the following projects:')
     for p in projects:
         print(f'\t{p}')
+
     print('Updating all...')
 
     failed_projects = []
