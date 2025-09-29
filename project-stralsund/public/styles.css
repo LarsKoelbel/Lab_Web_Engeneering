@@ -6,20 +6,36 @@ body {
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed;
 
-    display: flex;
-    flex-direction: column;  /* Stack the divs vertically (default is row) */
-    align-items: center;
-    justify-content: center;  /* Center divs vertically (if container has height) */
     margin: 0;               /* Remove default body margin */
 
-    padding-top: 2%;
     font-family: sans-serif;
 }
 
 nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #515151;
+    height: 50px;
+    position: fixed;
+    width: 100%;
     a {
         color: white;
         text-decoration: none;
+    }
+
+    a:hover {
+        color: orange;
+    }
+}
+
+footer {
+    justify-content: left;
+    text-align: left;
+
+    p {
+        text-align: left;
+        margin-left: 10px;
     }
 }
 
@@ -36,11 +52,14 @@ ul {
 
 .main
 {
+    display: flex;
+    flex-direction: column;
     margin-left: 20%;
     margin-right: 20%;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3));
     padding: 2%;
     color: white;
+    border: 2px solid red;
 }
 
 h1 {
@@ -56,9 +75,14 @@ img {
 
 a {
     color: orange;
-    :visited {
-        color: yellow;
-    }
+}
+
+a.visited {
+    color: yellow;
+}
+
+a:hover {
+    color: pink;
 }
 
 input {
@@ -113,8 +137,8 @@ input {
     background-color: #323232;
     border-radius: 15px;
     border: 1px solid black;
-    width: 50%;
     margin-left: 25%;
+    width:50%;
     padding: 20px;
 
 
