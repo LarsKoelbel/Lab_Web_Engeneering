@@ -22,6 +22,9 @@ div {
 
 ul {
     text-align: left;
+    ::marker{
+        color:white;
+    }
 }
 
 .main
@@ -130,4 +133,12 @@ input {
         background-color: #028c02;
         color: white;
     }
+}
+
+.version {
+    color: rgba(211, 211, 211, 0.8);
+    font-size: 1em;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 0%;
 }
