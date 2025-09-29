@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-stralsund/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-stralsund/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-stralsund/public/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +98,7 @@
       <workItem from="1758661675501" duration="2579000" />
       <workItem from="1758664997284" duration="2508000" />
       <workItem from="1758907775379" duration="3745000" />
-      <workItem from="1759125788045" duration="1392000" />
+      <workItem from="1759125788045" duration="1739000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
