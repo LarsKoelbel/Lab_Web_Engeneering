@@ -16,6 +16,13 @@ body {
     font-family: sans-serif;
 }
 
+nav{
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
 div {
     text-align: center;
 }
@@ -108,19 +115,18 @@ input {
     border: 1px solid black;
     width: 50%;
     margin-left: 25%;
-    margin-right: 25%;
     padding: 20px;
 
 
     textarea {
         width: 95%;
         height: 200px;
-        margin-left: 2.5%;
         text-align: left;
         border-radius: 10px;
         background-color: #7f7f7f;
         border: 1px solid black;
         color: white;
+        resize: vertical;
     }
 
     input {
@@ -141,7 +147,5 @@ input {
 .version {
     color: rgba(211, 211, 211, 0.8);
     font-size: 1em;
-    text-align: left;
-    margin-left: 5%;
-    margin-right: 0%;
+    text-align: center;
 }
