@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
+      <change afterPath="$PROJECT_DIR$/project-clock/public/maintenance.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-clock/public/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-clock/public/resources/media/images/people/thispersondoesnotexist6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-clock/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-clock/public/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-clock/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-clock/public/main.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project-clock/public/workers.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/workers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +110,7 @@
       <workItem from="1758664997284" duration="2508000" />
       <workItem from="1758907775379" duration="3745000" />
       <workItem from="1759125788045" duration="8481000" />
-      <workItem from="1759140119375" duration="14950000" />
+      <workItem from="1759140119375" duration="15337000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
