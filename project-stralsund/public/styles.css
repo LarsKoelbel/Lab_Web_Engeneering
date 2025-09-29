@@ -49,6 +49,9 @@ img {
 
 a {
     color: orange;
+    :visited {
+        color: yellow;
+    }
 }
 
 input {
