@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
+      <change afterPath="$PROJECT_DIR$/project-clock/public/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-clock/public/resources/media/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-clock/public/resources/media/images/construction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-clock/public/resources/media/images/rathaus_stralsund_strelasund_ostsee_vorpommern-9277891.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-clock/public/resources/media/images/stralsund-blick-von-altefaehr-ueber-den-strelasund-88da9159-07e9-4224-a2a3-e34aeb77c927.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-clock/public/resources/media/images/stralsund-during-the-blue-hour-e18a9471-b263-4cfd-9eb9-0407ad294d33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-clock/public/resources/media/images/wrench.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-clock/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +61,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/larsk/WebstormProjects/Lab_Web_Engeneering/project-clock",
+    "last_opened_file_path": "C:/Users/larsk/WebstormProjects/Lab_Web_Engeneering/project-clock/public",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\larsk\WebstormProjects\Lab_Web_Engeneering\project-clock\public" />
       <recent name="C:\Users\larsk\WebstormProjects\Lab_Web_Engeneering\project-clock" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\resources\style\css" />
@@ -102,7 +110,7 @@
       <workItem from="1758661675501" duration="2579000" />
       <workItem from="1758664997284" duration="2508000" />
       <workItem from="1758907775379" duration="3745000" />
-      <workItem from="1759125788045" duration="8214000" />
+      <workItem from="1759125788045" duration="8481000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
