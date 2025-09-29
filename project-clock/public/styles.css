@@ -1,0 +1,224 @@
+body {
+
+    margin: 0;
+
+    background-image: url("resources/media/images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    font-family: sans-serif;
+
+}
+
+header {
+
+    background-image: linear-gradient(to right, rgba(145, 145, 145, 0.37), rgba(0, 0, 0, 0.42));
+
+    box-shadow: 10px 30px 70px rgba(0, 0, 0, 0.7);
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(6em, 100%), 1fr));
+        gap: 10px;
+
+        padding-left: 10px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+
+        text-align: center;
+
+        a {
+            color: white;
+            text-decoration: none;
+            height: 30px;
+            align-content: center;
+        }
+
+        a:hover {
+            color: #f2a20c;
+            font-weight: bold;
+        }
+    }
+
+}
+
+.banner {
+
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100px;
+    gap: 10px;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+    color: white;
+    font-weight: bold;
+
+
+    img {
+        width: auto;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    p {
+        margin: 0;
+        font-size: 6em;
+        text-align: left;
+        align-content: center;
+        text-wrap: nowrap;
+    }
+
+}
+
+.homepage {
+
+    margin: 20px;
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 33%));
+        justify-items: center;
+        gap: 10px;
+
+        article {
+            transition: width 0.5s ease;
+            outline: 2px solid white;
+            border-radius: 30px;
+            position: relative;
+            width: 500px;
+            height: 1000px;
+
+            overflow: hidden;
+
+            box-shadow: 50px 30px 70px rgba(0, 0, 0, 0.7);
+
+            color: white;
+
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        article:hover {
+            width: 800px;
+            cursor: pointer;
+        }
+
+        .overlay_text {
+            position: absolute;
+            bottom: 0;
+            padding: 20px;
+
+            font-size: 1.5em;
+
+            hr {
+                border: 2px solid white;
+                width: 75%;
+                margin-left: 0;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            h2 {
+                margin: 0;
+                padding: 0;
+                font-size: 4em;
+                letter-spacing: 0.2em;
+            }
+        }
+
+    }
+
+}
+
+footer {
+    position: fixed;
+    color: white;
+    font-size: 0.7em;
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    margin: 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-image: linear-gradient(to right, rgba(193, 193, 193, 0.37), rgba(0, 0, 0, 0));
+    align-content: center;
+
+    p {
+        margin: 0;
+        margin-left: 10px;
+    }
+}
+
+.worker {
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
+
+        margin-top: 20px;
+        margin-bottom: 50px;
+
+        article {
+            display: grid;
+            grid-template-columns: 200px auto;
+            transition: grid-template-columns 0.5s ease;
+            gap: 10px;
+
+            margin-left: 10%;
+            margin-right: 10%;
+            background-image: linear-gradient(to right, rgba(193, 193, 193, 0.37), rgba(0, 0, 0, 0.37));
+            border: 1px solid black;
+            border-radius: 30px;
+            box-shadow: 50px 30px 70px rgba(0, 0, 0, 0.7);
+
+            padding: 15px;
+
+            img {
+                width: 200px;
+                border-radius: 20px;
+                transition: width 0.5s ease;
+            }
+
+            div {
+                margin: 0;
+                color: white;
+                hr {
+                    border: 2px solid white;
+                    width: 75%;
+                    margin-left: 0;
+                }
+            }
+        }
+
+        @media (max-width: 640px) {
+            article {
+                grid-template-columns: 1fr;
+            }
+        }
+        article:hover {
+            grid-template-columns: 400px auto;
+            img {
+                width: 400px;
+            }
+        }
+    }
+}
