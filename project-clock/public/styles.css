@@ -53,8 +53,8 @@ header {
 .banner {
 
     display: grid;
-    grid-template-columns: 200px auto;
-    grid-template-rows: 100px;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 50px;
     gap: 10px;
 
     padding-bottom: 10px;
@@ -73,7 +73,7 @@ header {
 
     p {
         margin: 0;
-        font-size: 6em;
+        font-size: 3em;
         text-align: left;
         align-content: center;
         text-wrap: nowrap;
@@ -87,48 +87,52 @@ header {
 
     section {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 33%));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 600px));
         justify-items: center;
+        align-items: center;
         gap: 10px;
 
         article {
-            transition: width 0.5s ease;
+            transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
             outline: 1px solid white;
             border-radius: 30px;
             position: relative;
-            width: 500px;
-            height: 1000px;
+            width: 400px;
+            height: 700px;
 
             overflow: hidden;
 
-            box-shadow: 0px 0px 100px rgba(255, 253, 122, 0.24);
+            box-shadow: 0 0 100px rgba(255, 253, 122, 0.24);
 
             color: white;
 
             img {
                 width: 100%;
                 height: 100%;
-                transition: width 0.5s ease;
-                transition: height 0.5s ease;
+                transition: width 0.5s ease, height 0.5s ease;
                 display: block;
                 object-fit: cover;
                 object-position: center;
             }
         }
 
-        article:hover {
-            width: 800px;
-            cursor: pointer;
+        @media (min-width: 1000px) {
+            article:hover {
+                width: 600px;
+                cursor: pointer;
 
-            img {
-                width: 110%;
-                height: 110%;
-            }
+                box-shadow: 0 0 100px rgba(255, 253, 122, 0.70);
 
-            .overlay_text {
-                h3 {
-                    font-size: 2em;
-                    color: orange;
+                img {
+                    width: 110%;
+                    height: 110%;
+                }
+
+                .overlay_text {
+                    h3 {
+                        font-size: 2em;
+                        color: yellow;
+                    }
                 }
             }
         }
@@ -153,26 +157,19 @@ header {
             h2 {
                 margin: 0;
                 padding: 0;
-                font-size: 4em;
+                font-size: 3em;
                 letter-spacing: 0.2em;
             }
 
             h3 {
                 margin: 0;
                 padding: 0;
-                transition: font-size 0.5s ease;
-                transition: color 0.5s ease;
+                transition: font-size 0.5s ease, color 0.5s ease;
             }
         }
 
     }
 
-}
-
-@media (max-width: 1000px) {
-    .homepage section {
-        grid-template-columns: 1fr;
-    }
 }
 
 footer {
@@ -236,17 +233,30 @@ footer {
             }
         }
 
-        @media (max-width: 640px) {
+        @media (max-width: 1000px) {
             article {
                 grid-template-columns: 1fr;
             }
-        }
-        article:hover {
-            grid-template-columns: 400px auto;
-            img {
-                width: 400px;
+
+            article:hover {
+                grid-template-columns: auto;
+                grid-template-rows: 400px auto;
+
+                img {
+                    width: 400px;
+                }
             }
         }
+
+        @media (min-width: 1000px) {
+            article:hover {
+                grid-template-columns: 400px auto;
+                img {
+                    width: 400px;
+                }
+            }
+        }
+
     }
 }
 
