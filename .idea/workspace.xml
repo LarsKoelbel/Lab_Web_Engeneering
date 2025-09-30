@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-clock/public/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-clock/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-clock/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-clock/public/workers.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/workers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +33,12 @@
     &quot;assignee&quot;: &quot;LarsKoelbel&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LarsKoelbel/Lab_Web_Engeneering.git",
-    "accountId": "7800b86f-1156-44ca-8f76-0c8b76d2e5d4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LarsKoelbel/Lab_Web_Engeneering.git&quot;,
+    &quot;accountId&quot;: &quot;7800b86f-1156-44ca-8f76-0c8b76d2e5d4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -108,6 +111,7 @@
       <workItem from="1759125788045" duration="8481000" />
       <workItem from="1759140119375" duration="16468000" />
       <workItem from="1759241174555" duration="2176000" />
+      <workItem from="1759243898522" duration="1464000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />

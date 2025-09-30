@@ -17,7 +17,12 @@ body {
 
 header {
 
-    background-image: linear-gradient(to right, rgba(145, 145, 145, 0.37), rgba(0, 0, 0, 0.42));
+    position: fixed;
+    width: 100%;
+
+    backdrop-filter: blur(10px);
+
+    background-image: url(resources/media/images/glass.png);
 
     box-shadow: 10px 30px 70px rgba(0, 0, 0, 0.7);
 
@@ -91,6 +96,8 @@ header {
         justify-items: center;
         align-items: center;
         gap: 10px;
+
+        margin-top: 130px;
 
         article {
             transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
@@ -173,6 +180,8 @@ header {
 }
 
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     position: fixed;
     color: white;
     font-size: 0.7em;
@@ -182,12 +191,24 @@ footer {
     margin: 0;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    background-image: linear-gradient(to right, rgba(193, 193, 193, 0.37), rgba(0, 0, 0, 0));
+    background-image: url(resources/media/images/glass.png);
     align-content: center;
+
+    backdrop-filter: blur(10px);
 
     p {
         margin: 0;
         margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    a{
+        color: white;
+        transition: color 0.5s ease;
+    }
+
+    a:hover {
+        color: pink;
     }
 }
 
@@ -198,7 +219,7 @@ footer {
         grid-template-rows: auto;
         gap: 10px;
 
-        margin-top: 20px;
+        margin-top: 130px;
         margin-bottom: 50px;
 
         article {
@@ -213,6 +234,7 @@ footer {
             border: 1px solid black;
             border-radius: 30px;
             box-shadow: 50px 30px 70px rgba(0, 0, 0, 0.7);
+
 
             padding: 15px;
 
@@ -267,7 +289,7 @@ footer {
         grid-template-rows: auto;
         gap: 10px;
 
-        margin-top: 20px;
+        margin-top: 130px;
         margin-bottom: 50px;
         margin-left: 10%;
         margin-right: 10%;
