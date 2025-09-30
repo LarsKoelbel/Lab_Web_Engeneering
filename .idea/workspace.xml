@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-clock/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +109,7 @@
       <workItem from="1759140119375" duration="16468000" />
       <workItem from="1759241174555" duration="2176000" />
       <workItem from="1759243898522" duration="1464000" />
-      <workItem from="1759245532474" duration="30000" />
+      <workItem from="1759245532474" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
