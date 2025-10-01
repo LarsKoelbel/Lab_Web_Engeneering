@@ -24,6 +24,7 @@ header {
     backdrop-filter: blur(10px);
 
     background-image: url(resources/media/images/glass.png);
+    background-color: rgba(255, 255, 255, 0.16);
 
     box-shadow: 10px 30px 70px rgba(0, 0, 0, 0.7);
 
@@ -49,7 +50,7 @@ header {
         }
 
         a:hover {
-            color: #f2a20c;
+            color: gold;
             font-weight: bold;
         }
     }
@@ -59,8 +60,8 @@ header {
 .banner {
 
     display: grid;
-    grid-template-columns: 100px auto;
-    grid-template-rows: 50px;
+    grid-template-columns: 70px auto;
+    grid-template-rows: 60px;
     gap: 10px;
 
     padding-bottom: 10px;
@@ -74,14 +75,7 @@ header {
         width: auto;
         height: 100%;
         object-fit: contain;
-    }
-
-    p {
-        margin: 0;
-        font-size: 3em;
-        text-align: left;
-        align-content: center;
-        text-wrap: nowrap;
+        margin-left: 10px;
     }
 
 }
@@ -92,7 +86,7 @@ header {
 
     section {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 600px));
+        grid-template-columns: repeat(auto-fit, minmax(400px, max(600px, 33%)));
         justify-items: center;
         align-items: center;
         gap: 10px;
