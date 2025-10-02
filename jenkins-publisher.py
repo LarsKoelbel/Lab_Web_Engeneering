@@ -27,7 +27,7 @@ def make_new_version(path: str, version: str = None):
                 continue
             
             # Place the version
-            data.replace('##VERSION##', version)
+            data = data[:index] + version + data[(index + 11):]
 
             print(data)
 
