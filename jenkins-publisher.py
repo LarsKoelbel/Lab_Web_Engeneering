@@ -6,6 +6,10 @@ import json
 import datetime
 
 def make_new_version(path: str, version: str = None):
+    # Generate version string
+    if not version:
+        version = datetime.datetime.now().strftime('Jenkins-Published-%y%m%d_%h%m%s')
+
     # Find all html files in the directory
     files = [os.path.join(path, x) for x in os.listdir(path) if os.path.isfile(os.path.join(path, x)) and x.endswith('.html')]
 
@@ -21,13 +25,11 @@ def make_new_version(path: str, version: str = None):
             if not index or index >= len(data) or index < 0:
                 print(f'File {file} has no version placeholder (index={index}), skipping...')
                 continue
-
-            # Generate version string
-            if not version:
-                version = datetime.datetime.now().strftime('Jenkins-Published-%y%m%d_%h%m%s')
             
             # Place the version
             data.replace('##VERSION##', version)
+
+            print(data)
 
             with open(file, 'w') as o_file:
                 o_file.write(data)
