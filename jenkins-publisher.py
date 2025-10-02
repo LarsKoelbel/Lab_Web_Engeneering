@@ -10,6 +10,7 @@ def make_new_version(path: str, version: str = None):
     files = [os.path.join(path, x) for x in os.listdir(path) if os.path.isfile(os.path.join(path, x)) and x.endswith('.html')]
 
     for file in files:
+        print(f'Updating version for {file}')
         try:
             with open(file, 'r') as o_file:
                 data = o_file.read()
@@ -69,6 +70,7 @@ def publish_project(path: str) -> bool:
             return False
 
         # Update all version placeholders
+        print("Updating version...")
         make_new_version(public_folder)
 
         # Publish the public folder to the S3 bucket
