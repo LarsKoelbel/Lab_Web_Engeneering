@@ -19,7 +19,8 @@ def make_new_version(path: str, version: str = None):
             index = data.find('##VERSION##')
 
             if not index or index >= len(data) or index < 0:
-                print(f'File {file} has no version placeholder, skipping...')
+                print(f'File {file} has no version placeholder (index={index}), skipping...')
+                continue
 
             # Generate version string
             if not version:
