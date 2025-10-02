@@ -3,6 +3,44 @@
 import os
 import subprocess
 import json
+import datetime
+
+def make_new_version(path: str, version: str = None):
+    # Find all html files in the directory
+    files = [os.path.join(path, x) for x in os.listdir(path) if os.path.isfile(os.path.join(path, x)) and x.endswith('.html')]
+
+    for file in files:
+        try:
+            with open(file, 'r') as o_file:
+                data = o_file.read()
+            
+            # Find version placeholder
+            index = data.find('##VERSION##')
+
+            if not index or index >= len(data) or index < 0:
+                print(f'File {file} has no version placeholder, skipping...')
+
+            # Generate version string
+            if not version:
+                version = datetime.datetime.now().strftime('Jenkins-Published-%y%m%d_%h%m%s')
+            
+            # Place the version
+            data.replace('##VERSION##', version)
+
+            with open(file, 'w') as o_file:
+                o_file.write(data)
+    
+
+        except Exception as e:
+            print(f'WARNING: Fatal error during version update for file {file}: {e}')
+
+    # Find all child directorys
+
+    dirs = [os.path.join(path, x) for x in os.listdir(path) if os.path.isdir(os.path.join(path, x))]
+
+    for dir in dirs:
+        make_new_version(dir, version=version)
+
 
 def publish_project(path: str) -> bool:
     # Get the aws endpoint
@@ -29,6 +67,9 @@ def publish_project(path: str) -> bool:
         if not os.path.isdir(public_folder):
             print(f'Project has no public folder or the folder is misplaced.\nERROR: Folder not found: {public_folder}. Publishing aborted!')
             return False
+
+        # Update all version placeholders
+        make_new_version(public_folder)
 
         # Publish the public folder to the S3 bucket
         print(f'Publishing {public_folder} to S3 bucket {aws_s3_bucket}...')
