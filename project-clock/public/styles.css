@@ -86,7 +86,7 @@ header {
 
     section {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, max(600px, 33%)));
+        grid-template-columns: repeat(auto-fit, minmax(400px, max(600px, 32.9%)));
         justify-items: center;
         align-items: center;
         gap: 10px;
