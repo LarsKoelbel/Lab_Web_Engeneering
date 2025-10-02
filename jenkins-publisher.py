@@ -8,7 +8,7 @@ import datetime
 def make_new_version(path: str, version: str = None):
     # Generate version string
     if not version:
-        version = datetime.datetime.now().strftime('Jenkins-Published-%y%m%d_%h%m%s')
+        version = datetime.datetime.now().strftime('Jenkins-Published-%y%m%d_%H%M%S')
 
     # Find all html files in the directory
     files = [os.path.join(path, x) for x in os.listdir(path) if os.path.isfile(os.path.join(path, x)) and x.endswith('.html')]
