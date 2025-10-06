@@ -1,0 +1,16 @@
+.useless {
+    transition: opacity 10s ease, color 2s ease;
+    opacity: 0;
+    color: grey;
+    text-decoration: line-through;
+}
+
+.rotating {
+    animation: spin 0.5s linear infinite;
+    max-width: 20%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

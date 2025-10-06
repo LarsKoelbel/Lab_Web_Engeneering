@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
-      <change beforePath="$PROJECT_DIR$/jenkins-publisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins-publisher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Web_Engenering_Lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Web_Engenering_Lab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,12 +50,13 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dirkk/WebstormProjects/Lab_Web_Engeneering/project-clock/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/larsk/WebstormProjects/Lab_Web_Engeneering/project-js_basics/public&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -68,18 +71,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\larsk\WebstormProjects\Lab_Web_Engeneering\project-js_basics\public" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-clock\public" />
       <recent name="C:\Users\larsk\WebstormProjects\Lab_Web_Engeneering\project-clock\public" />
       <recent name="C:\Users\larsk\WebstormProjects\Lab_Web_Engeneering\project-clock" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering" />
-      <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\resources\style\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\larsk\WebstormProjects\Lab_Web_Engeneering\project-js_basics\public" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-clock\public\resources\media\images" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-stralsund\public" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering" />
       <recent name="C:\Users\student\WebstormProjects\Web_Engenering_Lab\resources" />
-      <recent name="C:\Users\student\WebstormProjects\Web_Engenering_Lab\resources\media\images" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -113,6 +116,8 @@
       <workItem from="1759317762000" duration="2198000" />
       <workItem from="1759386928681" duration="397000" />
       <workItem from="1759411619571" duration="136000" />
+      <workItem from="1759733233313" duration="7866000" />
+      <workItem from="1759742118825" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
