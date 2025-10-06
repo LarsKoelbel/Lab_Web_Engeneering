@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
-      <change beforePath="$PROJECT_DIR$/.idea/Web_Engenering_Lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Web_Engenering_Lab.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-clock/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-clock/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -31,12 +32,12 @@
     &quot;assignee&quot;: &quot;LarsKoelbel&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/LarsKoelbel/Lab_Web_Engeneering.git&quot;,
-    &quot;accountId&quot;: &quot;7800b86f-1156-44ca-8f76-0c8b76d2e5d4&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LarsKoelbel/Lab_Web_Engeneering.git",
+    "accountId": "a244393e-dbc0-40ca-a50c-7854306ed592"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -118,6 +119,7 @@
       <workItem from="1759411619571" duration="136000" />
       <workItem from="1759733233313" duration="7866000" />
       <workItem from="1759742118825" duration="391000" />
+      <workItem from="1759758630602" duration="5221000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />

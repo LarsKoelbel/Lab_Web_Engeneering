@@ -60,7 +60,7 @@ header {
 .banner {
 
     display: grid;
-    grid-template-columns: 70px auto;
+    grid-template-columns: 70px 250px auto;
     grid-template-rows: 60px;
     gap: 10px;
 
@@ -136,10 +136,46 @@ header {
                     }
                 }
             }
+
+            .emphasize-main-article {
+                width: 600px;
+
+                box-shadow: 0 0 100px rgba(255, 253, 122, 0.70);
+
+                img {
+                    width: 110%;
+                    height: 110%;
+                }
+
+                .overlay_text {
+                    h3 {
+                        font-size: 2em;
+                        color: yellow;
+                    }
+                }
+            }
         }
 
         @media (max-width: 1000px) {
             grid-template-columns: 1fr;
+
+            .emphasize-main-article {
+                width: 600px;
+
+                box-shadow: 0 0 100px rgba(255, 253, 122, 0.70);
+
+                img {
+                    width: 110%;
+                    height: 110%;
+                }
+
+                .overlay_text {
+                    h3 {
+                        font-size: 2em;
+                        color: yellow;
+                    }
+                }
+            }
         }
 
         .overlay_text {
@@ -362,5 +398,61 @@ footer {
             }
         }
 
+    }
+}
+
+.time-bar-container {
+    width: 80%;
+    height: 20px;
+    background-color: grey;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.time-bar {
+    background-color: gold;
+    width: 0%;
+    height: 100%;
+    transition: width 5s ease;
+}
+
+.popup {
+    z-index: 100000;
+
+    display: none;
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    background-color: rgba(255, 215, 0, 0.07);
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(50px);
+
+    box-shadow: 0px 0px 70px gold;
+
+    max-width: 30%;
+
+    padding: 10px;
+
+    color: white;
+
+    hr {
+        width: 80%;
+        border: 1px solid white;
     }
 }

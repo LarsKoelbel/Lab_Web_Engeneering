@@ -5,6 +5,7 @@
     <title>TickTack Homepage</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="resources/media/images/logo.png">
+    <script src="main.js" async></script>
 </head>
 <body>
 
@@ -14,6 +15,13 @@
                 <img src="resources/media/images/logo.png" alt="Company logo">
             </a>
             <img src="resources/media/images/title.png" alt="Tick Tack GmbH">
+            <div class="time-container">
+                Wie spät ist es? Wir revolutionieren die Zeitdarstellung!
+                <div class="time-bar-container">
+
+                    <div class="time-bar" id="time-bar"></div>
+                </div>
+            </div>
         </section>
 
         <nav>
@@ -24,9 +32,19 @@
         </nav>
     </header>
 
+    <div class="popup" id="wellcome-pupup">
+        <div class="popup-content">
+            <h2 id="wellcome-text">Wellcome!</h2>
+            <p >Willkommen bei der Tick Tack GmbH!</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut ducimus eaque exercitationem, illo in itaque minima molestias odit, officia praesentium provident qui rerum, sunt suscipit vel veniam. Iure, modi?</p>
+            <button class="popup-close-button" type="button" onclick="closePopup()">Zu unseren Produkten</button>
+        </div>
+    </div>
+
     <main class="homepage">
         <section>
-            <article>
+            <article id="article1">
                 <img src="resources/media/images/w-230.png" alt="Watch model 1">
                 <div class="overlay_text">
                     <h3>Ab 150,- €</h3>
@@ -36,7 +54,7 @@
                 </div>
             </article>
 
-            <article>
+            <article id="article2">
                 <img src="resources/media/images/s-350.png" alt="Watch model 1">
                 <div class="overlay_text">
                     <h3>Ab 999,- €</h3>
@@ -46,7 +64,7 @@
                 </div>
             </article>
 
-            <article>
+            <article id="article3">
                 <img src="resources/media/images/n-ultra.png" alt="Watch model 1">
                 <div class="overlay_text">
                     <h3>Ab 10.700.000,- €</h3>
