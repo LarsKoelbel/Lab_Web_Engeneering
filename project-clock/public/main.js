@@ -8,11 +8,14 @@ window.addEventListener("load", () => {
 
 function start_time_update(){
     const bar = document.getElementById("time-bar")
+    const toolTip = document.getElementById("time-bar")
 
     bar.style.width = ( getTimeInSecounds()/86400 * 100) + "%";
+    toolTip.title = new Date().toLocaleTimeString("de");
 
     setInterval(()=>{
         bar.style.width = (getTimeInSecounds()/86400 * 100) + "%";
+        toolTip.title = new Date().toLocaleTimeString("de");
     }, 5000);
 }
 

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-clock/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-clock/public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-clock/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/project-clock/public/styles.css" afterDir="false" />
     </list>
@@ -36,7 +35,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/LarsKoelbel/Lab_Web_Engeneering.git",
-    "accountId": "7800b86f-1156-44ca-8f76-0c8b76d2e5d4"
+    "accountId": "a244393e-dbc0-40ca-a50c-7854306ed592"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -122,6 +121,7 @@
       <workItem from="1759742118825" duration="391000" />
       <workItem from="1759758630602" duration="5221000" />
       <workItem from="1760686396076" duration="442000" />
+      <workItem from="1760693444646" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />

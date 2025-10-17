@@ -94,7 +94,7 @@ header {
         margin-top: 130px;
 
         article {
-            transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
+            transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
             outline: 1px solid white;
             border-radius: 30px;
             position: relative;
@@ -138,9 +138,10 @@ header {
             }
 
             .emphasize-main-article {
-                width: 600px;
 
                 box-shadow: 0 0 100px rgba(255, 253, 122, 0.70);
+
+                border: 3px solid gold;
 
                 img {
                     width: 110%;
