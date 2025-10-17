@@ -421,6 +421,8 @@ footer {
 .popup {
     z-index: 100000;
 
+    background-color: rgba(0, 0, 0, 0.61);
+
     display: none;
     position: fixed;
 

@@ -35,8 +35,10 @@ function openPopup(){
     switch (true) {
         case seconds < 36000:
             message = "Guten Morgen!"
+            break;
         case seconds < 57600:
             message = "Guten Tag!"
+            break;
         default:
             message = "Guten Abend!"
     }
