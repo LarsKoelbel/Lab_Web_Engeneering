@@ -1,4 +1,4 @@
 {
-  "aws_s3_bucket": "ticktack",
+  "aws_s3_bucket": "boubblebucket",
   "aws_cloudfront_id": "boubblebucket"
 }
