@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+
+    background-image: url("assets/images/RedStoneWall01_2K_BaseColor.png");
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: 500px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+
+    background: black;
+    opacity: 0;
+    transition: opacity 5s ease; /* Smooth transition */
+}
+
+body.fade-black::before {
+    opacity: 1;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: auto;
+
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.7), rgba(186, 255, 249, 0.2));
+    backdrop-filter: blur(100px);
+    box-shadow: 0 0 10px rgba(173, 216, 230, 0.5), inset 0 0 5px rgba(255, 255, 255, 0.5);
+    opacity: 0.8;
+
+
+}
+
+.circle-video {
+    position: absolute;
+    pointer-events: none;
+
+    background: transparent;
+
+    opacity: 0.8;
+
+    transition: width 10s ease, height 10s ease;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.8);
+        opacity: 50%;
+    }
+    100% {
+        transform: scale(2.2);
+        opacity: 0;
+    }
+}
+
+@keyframes form {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    25% {
+        transform: scale(0.2);
+        opacity: 0.4;
+    }
+    80% {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+}
+
+
+.circle.popping {
+    animation: pop 0.05s ease-out forwards;
+}
+
+.circle.forming {
+    animation: form 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
