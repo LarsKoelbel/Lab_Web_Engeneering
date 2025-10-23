@@ -57,6 +57,7 @@ function spawnCircle() {
                 popSound.play();
                 popCircle(circle);
                 GLOBAL_BUBBLER_POPPED++;
+                console.log(GLOBAL_BUBBLER_POPPED);
 
             }else {
                 const rand = Math.floor(Math.random() * 100000);
@@ -110,7 +111,6 @@ function spawnCircle() {
         const currentTop = parseFloat(circle.style.top);
         const currentLeft = parseFloat(circle.style.left);
         if (currentTop <= 0 || currentLeft + size > window.innerWidth) {
-            console.log(circle.style.top);
             if (golden || VIDEO != null) {
                 circle.remove();
                 return;
