@@ -11,12 +11,12 @@ function spawnCircle() {
     const x = Math.random() * (window.innerWidth - size);
     const y = Math.random() * (window.innerHeight - size);
 
-    if (GLOBAL_BUBBLER_POPPED >= 999) {
-        GLOBAL_BUBBLER_POPPED = 999;
+    if (GLOBAL_BUBBLER_POPPED >= 499) {
+        GLOBAL_BUBBLER_POPPED = 499;
     }
 
 
-    const golden = (Math.floor(Math.random() * (1000 - GLOBAL_BUBBLER_POPPED)) === 0);
+    const golden = (Math.floor(Math.random() * (500 - GLOBAL_BUBBLER_POPPED)) === 0);
     let GLOBAL_ANIMATION_STOP = false;
 
     circle.className = "circle";
