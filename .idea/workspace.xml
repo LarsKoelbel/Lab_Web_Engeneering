@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
-      <change beforePath="$PROJECT_DIR$/project-bubble/public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-bubble/public/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +119,7 @@
       <workItem from="1760686396076" duration="442000" />
       <workItem from="1760693444646" duration="509000" />
       <workItem from="1761149837355" duration="13269000" />
-      <workItem from="1761215504871" duration="123000" />
+      <workItem from="1761215504871" duration="138000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
