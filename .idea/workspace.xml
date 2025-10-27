@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing" />
+    <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-bubble/public/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/project-bubble/public/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +31,12 @@
     &quot;assignee&quot;: &quot;LarsKoelbel&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LarsKoelbel/Lab_Web_Engeneering.git",
-    "accountId": "7800b86f-1156-44ca-8f76-0c8b76d2e5d4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LarsKoelbel/Lab_Web_Engeneering.git&quot;,
+    &quot;accountId&quot;: &quot;7800b86f-1156-44ca-8f76-0c8b76d2e5d4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -120,6 +123,7 @@
       <workItem from="1760693444646" duration="509000" />
       <workItem from="1761149837355" duration="13269000" />
       <workItem from="1761215504871" duration="138000" />
+      <workItem from="1761548771548" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
