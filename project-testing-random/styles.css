@@ -1,0 +1,24 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    transition: width 0.5s ease, height 0.5s ease, font-size 0.5s ease;
+}
+/*
+button:hover {
+    font-size: 2em;
+}
+*/
+input {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    transition: width 0.5s ease, height 0.5s ease, font-size 0.5s ease;
+    text-align: center;
+}
+/*
+input:hover {
+    font-size: 2em;
+}*/
