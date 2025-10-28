@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+}
+
+.entry-adder:not([open]) {
+    display: none;
+}
+
+.entry-adder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    align-items: center;
+    justify-content: center;
+
+    .entry-adder-body {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: auto;
+
+        align-items: center;
+        justify-items: center;
+
+        text-align: center;
+
+        input {
+            margin: 5px;
+            width: 90%;
+        }
+    }
+
+    .buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        align-items: center;
+        justify-items: center;
+
+        padding: 10px;
+
+        button {
+            width: 90%;
+        }
+    }
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 0.5fr;
+    grid-template-rows: auto;
+
+    div {
+        border: 1px solid black;
+    }
+
+    .due-soon {
+        border-top: 3px solid orangered;
+        border-bottom: 3px solid orangered;
+        background-color: orange;
+    }
+}

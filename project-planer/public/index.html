@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Planer demo</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Planer Demo Page</h1>
+
+<dialog class="entry-adder" id="add-dialog">
+    <div class="entry-adder-body">
+        <label for="input-title">Title  </label>
+        <input id="input-title" type="text">
+        <label for="input-desc">Description  </label>
+        <input id="input-desc" type="text">
+        <label for="input-date">Due date  </label>
+        <input id="input-date" type="date">
+    </div>
+    <div class="buttons">
+        <button id="add-button">Confirm</button>
+        <button id="cancel-button">Cancel</button>
+    </div>
+</dialog>
+
+<main>
+    <button id="open-dialog">Add Task</button>
+    <div class="table" id="table">
+
+    </div>
+</main>
+
+</body>
+</html>
