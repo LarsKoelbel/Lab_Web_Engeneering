@@ -54,6 +54,12 @@ def publish_project(path: str) -> bool:
         with open(aws_endpoint_file, 'r') as file:
             aws_data = json.load(file)
 
+        aws_skip = aws_data.get('skip')
+
+        if aws_skip and aws_skip.lower() == 'true':
+            print('Project marked as skip. Skipping publishing...')
+            return True
+
         aws_s3_bucket = aws_data.get('aws_s3_bucket')
         aws_cloudfront_id = aws_data.get('aws_cloudfront_id')
 

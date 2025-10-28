@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-bubble/jenkins-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/project-bubble/jenkins-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins-publisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins-publisher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +31,12 @@
     &quot;assignee&quot;: &quot;LarsKoelbel&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LarsKoelbel/Lab_Web_Engeneering.git",
-    "accountId": "a244393e-dbc0-40ca-a50c-7854306ed592"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LarsKoelbel/Lab_Web_Engeneering.git&quot;,
+    &quot;accountId&quot;: &quot;a244393e-dbc0-40ca-a50c-7854306ed592&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -57,7 +57,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/dirkk/WebstormProjects/Lab_Web_Engeneering/project-planer",
+    "last_opened_file_path": "C:/Users/dirkk/WebstormProjects/Lab_Web_Engeneering/project-js_basics",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -72,11 +72,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-js_basics" />
+      <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-testing-random" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-planer" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-bubble" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-bubble\public\assets\videos" />
-      <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-bubble\public" />
-      <recent name="C:\Users\larsk\WebstormProjects\Lab_Web_Engeneering\project-js_basics\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-bubble\public\assets\videos" />
@@ -127,6 +127,7 @@
       <workItem from="1761548771548" duration="4394000" />
       <workItem from="1761554492462" duration="5289000" />
       <workItem from="1761658826186" duration="6709000" />
+      <workItem from="1761667039866" duration="261000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
