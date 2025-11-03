@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2dd8387-fff0-44d9-aa34-28fce2adbab1" name="Changes" comment="Added AI thing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins-publisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins-publisher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/LarsKoelbel/Lab_Web_Engeneering.git&quot;,
-    &quot;accountId&quot;: &quot;a244393e-dbc0-40ca-a50c-7854306ed592&quot;
+    &quot;accountId&quot;: &quot;7800b86f-1156-44ca-8f76-0c8b76d2e5d4&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -50,6 +49,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.www.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -57,7 +57,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/dirkk/WebstormProjects/Lab_Web_Engeneering/project-js_basics",
+    "last_opened_file_path": "C:/Users/larsk/WebstormProjects/Lab_Web_Engeneering/project-weather",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -72,19 +72,29 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\larsk\WebstormProjects\Lab_Web_Engeneering\project-weather" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-js_basics" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-testing-random" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-planer" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-bubble" />
-      <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-bubble\public\assets\videos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\larsk\WebstormProjects\Lab_Web_Engeneering\project-weather\public" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-bubble\public\assets\videos" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-bubble\public\assets\audio" />
       <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-bubble\public\assets\images" />
       <recent name="C:\Users\larsk\WebstormProjects\Lab_Web_Engeneering\project-js_basics\public" />
-      <recent name="C:\Users\dirkk\WebstormProjects\Lab_Web_Engeneering\project-clock\public\resources\media\images" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="www" type="NodeJSConfigurationType" temporary="true" path-to-node="$APPLICATION_CONFIG_DIR$/node/versions/24.11.0/node" nameIsGenerated="true" path-to-js-file="www" working-dir="$PROJECT_DIR$/project-weather/public/weather/bin">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.www" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -128,6 +138,8 @@
       <workItem from="1761554492462" duration="5289000" />
       <workItem from="1761658826186" duration="6709000" />
       <workItem from="1761667039866" duration="261000" />
+      <workItem from="1762153952588" duration="760000" />
+      <workItem from="1762158428105" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary="Added AI thing">
       <option name="closed" value="true" />
