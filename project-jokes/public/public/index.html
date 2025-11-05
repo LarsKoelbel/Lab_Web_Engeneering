@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Engineering I</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/main.js" async></script>
+</head>
+<body>
+  <h1>Web Engineering I - Übung 5</h1>
+  <p>Der Server basiert auf node.js. Er bietet Services über eine Schnittstelle (engl. application programming interface, API) an, über die verschiedene Sprüche abgefragt oder hinzugefügt werden können.</p>
+  <p>Die Schnittstellen sind mittels swagger dokumentiert und können unter <a href="/api-docs">/api-docs</a> abgerufen werden.</p>
+<hr>
+  <button id="joke-dialog-button">Add a joke</button>
+  <hr>
+<p id="joke"></p>
+
+<dialog id="joke-add-dialog">
+    <label for="type-field"></label><input id="type-field" type="text" placeholder="Type of Joke" />
+    <label for="value-field"></label><input id="value-field" type="text" placeholder="Joke" />
+    <button id="joke-add-button">Add</button>
+</dialog>
+</body>
+</html>
